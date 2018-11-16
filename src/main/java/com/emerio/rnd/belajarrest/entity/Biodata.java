@@ -38,11 +38,11 @@ public class Biodata{
 
     public String getFirstname()
     {
-        return this.username;
+        return this.firstname;
     }
     public void setFirstname(String firstname)
     {
-        this.username = username;
+        this.firstname = firstname;
     }
 
     public String getLastname()
