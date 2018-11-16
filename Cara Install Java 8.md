@@ -1,12 +1,12 @@
 # Cara Install Java 8 di Ubuntu
 
 ## Buka Terminal, ketik :
-''''
+```sh
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 sudo apt-get install oracle-java8-set-default
-''''
+```
 Ketik ini, untuk mengecek versi java
 >java -version
 
