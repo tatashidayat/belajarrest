@@ -20,7 +20,7 @@ public class BiodataController{
     private BiodataRepo biodataRepo;
     
     @Autowired
-    BiodataController(BiodataController biodataController){
+    BiodataController(BiodataRepo biodataRepo){
         this.biodataRepo = biodataRepo;
     }
 
@@ -75,8 +75,6 @@ public class BiodataController{
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-}
-
     
     @RequestMapping(method = RequestMethod.GET, value="/biodata", produces = MediaType.APPLICATION_JSON_VALUE) 
     ResponseEntity<Iterable<Biodata>> getAll()
@@ -121,7 +119,4 @@ public class BiodataController{
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-
-    
-
 }
