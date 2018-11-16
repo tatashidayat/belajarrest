@@ -8,9 +8,13 @@ sudo apt-get install oracle-java8-installer
 sudo apt-get install oracle-java8-set-default
 ```
 Ketik ini, untuk mengecek versi java
->java -version
+```sh
+java -version
+```
 
 Berikut hasilnya:
->java version "1.8.0_171"
->Java(TM) SE Runtime Environment (build 1.8.0_171-b11)
->Java HotSpot(TM) 64-Bit Server VM (build 25.171-b11, mixed mode)
+```sh
+java version "1.8.0_171"
+Java(TM) SE Runtime Environment (build 1.8.0_171-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.171-b11, mixed mode)
+```
