@@ -1,2 +1,4 @@
 BERANINYA KAU PUJI
-LUTHFI SAYANG KAMOOOH
+
+hahahahah
+wkwkwkwkkwkwk
