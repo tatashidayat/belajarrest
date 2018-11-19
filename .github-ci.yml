@@ -1,0 +1,5 @@
+mvn sonar:sonar \
+  -Dsonar.projectKey=tatashidayat_belajarrest \
+  -Dsonar.organization=tatashidayat-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=28b597ce4717759afd694076cce41404a317da68
